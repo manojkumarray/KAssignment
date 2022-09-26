@@ -1,0 +1,171 @@
+$border-color: #f3f3f3;
+$white: #fff;
+
+	.container {
+		max-width: 94vw;
+	}
+
+.carousel-item {
+	img {
+		width: 20%;
+	}
+}
+.sub-heading {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-left: -10px;
+}
+.cus-heading{
+    font-size: 0.9vw;
+    color: #8a8a8a;
+    font-weight: 400;
+    display: contents;
+}
+.cus-row-header {
+	padding: 3px;
+    background-color: $white;
+	border: 1px solid $border-color;
+    height: 37px;
+}
+.card{
+    border-color: $border-color;
+}
+.cus-row-detail {
+	padding: 20px 10px 0px 10px;
+	border: 1px solid $border-color;
+    background-color: $white;
+}
+.cus-carousel-detail{
+    padding: 10px;
+	border: 1px solid $border-color;
+}
+.drag-handle {
+	img {
+		cursor: pointer;
+	}
+}
+.extended-cand{
+    border-radius: 30px;
+    width: 4vw;
+}
+.offer-extended h3{
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 0.5;
+    padding-top: 5px;
+}
+.cand-desc{
+    font-size: 0.9vw;
+    font-weight: 400;
+    color: #8a8a8a;
+}
+.comments{
+    font-size: 0.78vw;
+    font-weight: 400;
+    color: #8a8a8a;
+}
+.status-dropdown mat-form-field{
+    width: 1.2vw;
+    margin-top: -15px;
+}
+.mat-option{
+    text-align: center;
+}
+
+.interview-schedule h3, .interview-schedule p{
+    font-size: 0.78vw;
+    font-weight: 400;
+    color: #8a8a8a;
+}
+.block{
+    display: block;
+}
+.drag-handle{
+    position: relative;
+    top: 5vh;
+    right: 3.2vw;
+}
+.m-t-reduce{
+    margin-top:-30px;
+}
+.dot-line{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99999;
+    left: 22vw;
+    bottom: 7vh;
+    cursor: pointer;
+}
+.doj h3{
+    line-height: 1.5;
+}
+::ng-deep .status-dropdown .mat-form-field-underline{
+    display: none;
+}
+::ng-deep .owl-carousel .owl-item{
+    width: 6vw !important;
+}
+::ng-deep .owl-carousel .owl-item img {
+    height: 8vh;
+}
+::ng-deep .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    font-size: 40px;
+    bottom: 2vh;
+    left: 10px;
+}
+::ng-deep .owl-carousel .owl-nav .owl-next{
+    float: right;
+    position: relative;
+    font-size: 40px;
+    bottom: 5vh;
+}
+::ng-deep .cus-row-detail .cdk-overlay-pane{
+    margin-left: 85vw;
+    margin-top: 23vw;
+}
+::ng-deep .cdk-global-overlay-wrapper{
+    justify-content: right !important;
+    top: 12vh;
+}
+
+@media screen and (max-width: 575px) {
+    .sub-heading {
+        font-size: 4vw;
+    }
+    .cus-heading{
+        font-size: 3.8vw;
+    }
+    .offer-extended h3{
+        font-size: 3.8vw;
+    }
+    .cand-desc{
+        font-size: 3.8vw;
+    }
+    .comments{
+        font-size: 3.5vw;
+    }
+    .extended-cand {
+        width: 16vw;
+    }
+    .cus-row-detail {
+        text-align: center;
+    }
+    .drag-handle {
+        top: 0vh;
+        right: 40vw;
+    }
+    .interview-schedule p {
+        font-size: 3.2vw;
+    }
+    .mob-cus-row{
+        height: 12vh;
+    }
+    .dot-line {
+        left: 38vw;
+        bottom: 2vh;
+    }
+}

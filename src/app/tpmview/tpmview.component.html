@@ -1,0 +1,292 @@
+<div class="container">
+    <h3 class="sub-heading mt-3">Offer Extended</h3>
+    <div class="row p-2 offer-extended cus-row-detail">
+      <!-- <div class="row pt-3"> -->
+        <div class="col-sm-2">
+        <div class="row">
+        <div class="col-sm-4">
+          <img class="extended-cand" src="assets/images/candidateA.svg"/>
+        </div>
+        <div class="col-sm-8">
+          <h3>Anil Kapoor</h3>
+          <p class="cand-desc">Director, Piramal Enterprises, Kolkatta</p>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          <p class="cand-desc">Offer Extended on</p>
+          <h3>21 Jul 2020</h3>
+        </div>
+        <div class="col-sm-2">
+          <p class="cand-desc">Offer Accepted on</p>
+          <h3>23 Jul 2020</h3>
+        </div>
+        <div class="col-sm-1 doj">
+          <p class="cand-desc">Date of Joining</p>
+          <h3>1 Sept 2020</h3>
+        </div>
+        <div class="col-sm-1 status-dropdown">
+          <p class="cand-desc">Joining Status</p>
+          <mat-form-field>
+            <mat-select >
+              <mat-option value="1"><img src="assets/images/thumbs-up.svg"/></mat-option>
+              <mat-option value="2"><img src="assets/images/thumbs-down.svg"/></mat-option>
+              <mat-option value="3"><img src="assets/images/thumbs-no.svg"/></mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="col-sm-1 status-dropdown">
+          <p>B.V</p>
+          <mat-form-field>
+            <mat-select disableRipple>
+              <mat-option value="1"><img src="assets/images/thumbs-up.svg"/></mat-option>
+              <mat-option value="2"><img src="assets/images/thumbs-down.svg"/></mat-option>
+              <mat-option value="3"><img src="assets/images/thumbs-no.svg"/></mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="col-sm-2">
+          <p class="comments">Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teame</p>
+        </div>
+      <!-- </div> -->
+    </div>
+    <h3 class="sub-heading mt-3">Offer Extended</h3>
+    <div class="row cus-row-header mob-cus-row">
+      <div class="col-3 col-sm-3 text-center">
+        <h3 class="cus-heading">CANDIDATE DETAILS</h3>
+      </div>
+      <div class="col-3 col-sm-3 text-center">
+        <h3 class="cus-heading">INTERVIEW SCHEDULE</h3>
+      </div>
+      <div class="col-3 col-sm-3 text-center">
+        <h3 class="cus-heading">REFERENCE CHECK</h3>
+      </div>
+      <div class="col-3 col-sm-3 text-center">
+        <h3 class="cus-heading">COMMENTS</h3>
+      </div>
+    </div>
+    <div class="row mt-3 cus-carousel-detail">
+      <div class="col-sm-3"></div>
+      <div class="col-12 col-sm-3">
+        <!-- <div id="theCarousel" class="carousel slide multi-item-carousel" data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/candidateA.svg" alt="Los Angeles" class="d-block img-responsive">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/candidateA.svg" alt="Chicago" class="d-block img-responsive">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/candidateA.svg" alt="New York" class="d-block img-responsive">
+            </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#theCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#theCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div> -->
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 1">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 2">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 3">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 4">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 5">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="slide">
+                <img src="assets/images/candidateA.svg" alt="img 6">
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="slide">
+                  <img src="assets/images/candidateA.svg" alt="img 7">
+                </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                <div class="slide">
+                  <img src="assets/images/candidateA.svg" alt="img 8">
+                </div>
+              </ng-template>
+          </owl-carousel-o>
+      </div>
+      <div class="col-12 col-sm-3 text-center">
+        <div class="row">
+          <div class="col text-end">
+            <span class="cand-desc">LEAD</span>
+          </div>
+          <div class="col text-start">
+            <span class="cand-desc">CAPTURED</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        
+      </div>
+    </div>
+    
+      <div class="row mt-3 cus-row-detail" cdkDrag>
+      <div class="col-sm-3">
+        <div class="drag-handle" cdkDragHandle>
+            <img src="assets/images/sixdot.svg" />
+        </div>
+        <div class="row m-t-reduce">
+            <div class="col-sm-4 ">
+              <img class="extended-cand" src="assets/images/candidateA.svg"/>
+            </div>
+            <div class="col-sm-8">
+              <h3>Anil Kapoor</h3>
+              <p class="cand-desc">Director, Piramal Enterprises, Kolkatta</p>
+            </div>
+            </div>
+      </div>
+      <div class="col-sm-3 interview-schedule text-center">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="" src="assets/images/thumbs-up.svg" />
+            <p>Hire <span class="block">1 July 2018</span></p>
+            
+          </div>
+          <div class="col-sm-3">
+            <p>Awaiting Feedback</p>
+          </div>
+          <div class="col-sm-3">
+            <img class="" src="assets/images/thumbs-no.svg" />
+            <p>Undecided <span class="block">1 July 2018</span></p>
+          </div>
+          <div class="col-sm-3">
+            <img src="assets/images/calander.svg" />
+            <p>1 July 2018</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 text-center">
+        <div class="row">
+          <div class="col text-end">7</div>
+          <div class="col text-start">3</div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <p class="comments">Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teamelatea aliquet vulputate. Egestas. Lacinia ultrices QuisqueQuisqueQuisqueQuklloojjdjuee</p>
+        <img class="dot-line" src="assets/images/dot-line.svg" (click)="openDialog()"/>
+    </div>
+      
+    </div>
+
+    <div class="row mt-3 cus-row-detail" cdkDrag>
+        <div class="col-sm-3">
+          <div class="drag-handle" cdkDragHandle>
+            <img src="assets/images/sixdot.svg" />
+          </div>
+          <div class="row m-t-reduce">
+              <div class="col-sm-4 ">
+                <img class="extended-cand" src="assets/images/candidateA.svg"/>
+              </div>
+              <div class="col-sm-8">
+                <h3>Anil Kapoor</h3>
+                <p class="cand-desc">Director, Piramal Enterprises, Kolkatta</p>
+              </div>
+              </div>
+        </div>
+        <div class="col-sm-3 interview-schedule text-center">
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="" src="assets/images/thumbs-up.svg" />
+              <p>Hire <span class="block">1 July 2018</span></p>
+              
+            </div>
+            <div class="col-sm-3">
+              <p>Awaiting Feedback</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/no-hire.svg" />
+                <p>1 July 2018</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/calander.svg" />
+                <p>1 July 2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <div class="col text-end">7</div>
+            <div class="col text-start">3</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <p class="comments">Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teamelatea aliquet vulputate. Egestas. Lacinia ultrices QuisqueQuisqueQuisqueQuklloojjdjuee</p>
+          <img class="dot-line" src="assets/images/dot-line.svg" (click)="openDialog()"/>
+        </div>
+      </div>
+      <h3 class="sub-heading mt-3">Dropped</h3>
+      <div class="row mt-3 cus-row-detail" cdkDrag>
+        <div class="col-sm-3">
+          <div class="drag-handle" cdkDragHandle>
+              <img src="assets/images/sixdot.svg" />
+          </div>
+          <div class="row m-t-reduce">
+              <div class="col-sm-4 ">
+                <img class="extended-cand" src="assets/images/Avatar.svg"/>
+              </div>
+              <div class="col-sm-8">
+                <h3>Shridhar Joshi</h3>
+                <p class="cand-desc">Director, Piramal Enterprises, Kolkatta</p>
+              </div>
+              </div>
+        </div>
+        <div class="col-sm-3 interview-schedule text-center">
+          <div class="row">
+            <div class="col-sm-3">
+                <img src="assets/images/no-hire.svg" />
+                <p>1 July 2018</p>
+              
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/no-hire.svg" />
+                <p>1 July 2018</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/calander.svg" />
+                <p>1 July 2018</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="assets/images/calander.svg" />
+                <p>1 July 2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <div class="col text-end">4</div>
+            <div class="col text-start">3</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <p class="comments">Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teamelatea aliquet vulputate. Egestas. Lacinia ultrices QuisqueQuisqueQuisqueQuklloojjdjuee</p>
+          <img class="dot-line" src="assets/images/dot-line.svg" (click)="openDialog()"/>
+        </div>
+      </div>
+  </div>
